@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#background{
+    background: linear-gradient(45deg, blue, purple);
+    height: 100vh;
+    color: white;
+}
+#calculadora{
+    position: absolute;
+    background-color: gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    border-radius: 10px;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin: 1px;
+}
+.button:hover{
+    background-color: rgb(178, 178, 178);
+}
+#resultado{
+    background-color: white;
+    width: 212px;
+    height: 35px;
+    margin: 3px;
+    color: black;
+    text-align: right;
+    font-size: 30px;
+}
