@@ -2,7 +2,7 @@ function insert(number) {
     var resultElement = document.getElementById('resultado');
     var currentText = resultElement.innerHTML;
 
-    if (currentText === "Erro" || currentText === "Nada :(" || currentText === "Excesso" || currentText === "Infinity"){
+    if (/[a-zA-Z]/.test(currentText)){
         var newText = number;
     } else {
         var newText = currentText + number;
