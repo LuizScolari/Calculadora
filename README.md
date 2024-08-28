@@ -9,3 +9,5 @@ Calculator developed with HTML, CSS and JavaScript
 - **Evaluate Mathematical Expressions**: The calculator can evaluate complex mathematical expressions and display the result when you press the `=` button.
 - **Overflow Protection**: The calculator checks if the text fits within the display area before adding it, preventing overflow and ensuring all numbers remain visible.
 - **Responsive Design**: Adjusting the layout and size for optimal usability.
+<br>
+<img src="/images/Captura de Tela 2024-08-28 às 18.21.07.png" width="500">
